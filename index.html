@@ -35,10 +35,11 @@
         <li>Facultad de Estudios Superiores Acatlán</li>
       </ul>
     </p>
+    <hr>
 
     <!--Aquí trabajamos con tablas en HTML-->
     <h3>Experiencia de trabajo</h3>
-    <table border="1px">
+    <table cellspacing="15"> <!--Podemos agregar los bordes de la tabla con el atributo border="1px"-->
       <thead>
         <tr>
           <th>Periodo</th>
@@ -59,8 +60,70 @@
     <br>
     <hr>
 
+    <!--Reto de programación - Tablas anidadas-->
+    <h3>Habilidades</h3>
+    <table cellspacing="10">
+      <tbody>
+        <tr>
+          <td>
+            <table cellspacing="10">
+              <tr>
+                <td>Álgebra</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Trigonometría</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Geometría Analítica</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Cálculo I</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Cálculo II</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table cellspacing="10">
+              <tr>
+                <td>Cálculo III</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Cálculo IV</td>
+                <td>⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Programación en C</td>
+                <td>⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Programación en Java</td>
+                <td>⭐</td>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>⭐</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+
     <!--Links a las otras páginas de mi sitio web-->
-    <a href="hobbies.html">Pasatiempos</a>
-    <a href="contacto.html">Contacto</a>
+    <table cellspacing="15">
+      <tr>
+        <td><h3><a href="hobbies.html">Pasatiempos</a></h3></td>
+        <td><h3><a href="contacto.html">Contacto</a></h3></td>
+      </tr>
+    </table>
   </body>
 </html>
