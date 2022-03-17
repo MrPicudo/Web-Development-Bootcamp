@@ -1,0 +1,20 @@
+/* CSS externo */
+
+body {
+  background-color: #DBE2EF;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #F9F7F7;
+  border-width: 7px;
+  width: 3%;
+}
+
+h1 {
+  color: #3F72AF;
+}
+
+h3 {
+  color: #3F72AF;
+}
