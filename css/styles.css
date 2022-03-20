@@ -1,7 +1,7 @@
 /* CSS externo */
 
 body {
-  background-color: #DBE2EF;
+  background-color: #B1D0E0;
 }
 
 hr {
@@ -17,4 +17,8 @@ h1 {
 
 h3 {
   color: #3F72AF;
+}
+
+.justificado {
+  text-align: justify;
 }

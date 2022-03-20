@@ -1,0 +1,29 @@
+/* TAG selectors */
+
+body {
+  background-color: #DBE2EF;
+}
+
+/* Debemos ordenar los estilos de cada etiqueta o clase en orden alfabético */
+h1 {
+  background-color: #B1D0E0;
+  color: red;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+
+img {
+  background-color: #B1D0E0;
+  height: 300px;
+}
+
+
+/* CLASS selectors */
+.bacon {
+  background-color: #F1E1A6;
+}
+
+.perrito {
+  background-color: #C3E5AE;
+}
