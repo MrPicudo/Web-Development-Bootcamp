@@ -1,5 +1,7 @@
 /* CSS externo */
 
+/* TAG selectors */
+
 body {
   background-color: #B1D0E0;
 }
@@ -11,6 +13,10 @@ hr {
   width: 3%;
 }
 
+hr:hover {
+  border-color: gold;
+}
+
 h1 {
   color: #3F72AF;
 }
@@ -19,6 +25,21 @@ h3 {
   color: #3F72AF;
 }
 
+/* CLASS selectors */
+
 .justificado {
   text-align: justify;
+}
+
+.dinamico:hover {
+  height: 303px;
+}
+
+.dinamico-2:hover {
+  font-weight: bold;
+}
+
+.dinamico-3:hover {
+  color: #6867AC;
+  font-weight: bold;
 }

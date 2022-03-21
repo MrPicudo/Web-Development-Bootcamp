@@ -1,3 +1,16 @@
+/* TAG selectors */
+
 body {
-  background-color: red;
+  background-color: #A2D5F2;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* CLASS selectors */
+
+.caja-1 {
+  background-color: #39AEA9;
 }
