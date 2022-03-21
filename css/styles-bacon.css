@@ -27,3 +27,21 @@ img {
 .perrito {
   background-color: #C3E5AE;
 }
+
+.test {
+  color: orange;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.dinamico:hover {
+  background-color: gold;
+  height: 310px;
+}
+
+/* ID selectors */
+#heading {
+  color: green;
+}
