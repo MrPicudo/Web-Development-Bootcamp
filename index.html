@@ -25,7 +25,7 @@
     <!-- Ejemplo de cómo poner una imagen desde un link de internet:
     <img src="https://avatars.githubusercontent.com/u/99153283?s=400&u=9d6df942317ad0576d355952a327a6694eff3fc2&v=4"
          alt="Foto del perfil de Miguel Torres"> -->
-    <table cellspacing="50">
+    <table cellspacing="50" class="justificado">
       <tr>
         <!-- Y así ponemos una imagen que tenemos guardada localmente: -->
         <td><img src="images/Foto.png" class="dinamico"
@@ -33,10 +33,11 @@
              height="300"> <!--Si definimos únicamente el ancho o alto de la imagen, la proporción se conserva. --></td>
         <td><h1 class="dinamico-3">José Miguel Torres Chávez Nava</h1>
         <p> <em>Instructor en <strong>Math Review</strong>.</em> </p>
-        <p class="justificado"> Soy un estudiante de Matemáticas Aplicadas y Computación, tengo 28 años
+        <p> Soy un estudiante de Matemáticas Aplicadas y Computación, tengo 28 años
             y cuento con excelentes conocimientos de matemáticas nivel bachillerato y licenciatura, además de física y programación. <br> <br>
             Me interesa mucho aprender sobre programación aplicada a cosas de la vida real,
-            justo como HTML y CSS, y estoy decidido a dominar estos temas antes de mi próximo cumpleaños en noviembre. </p></td>
+            justo como HTML y CSS, y estoy decidido a dominar estos temas antes de mi próximo cumpleaños en noviembre. <br> <br>
+            Mi progreso actual en el curso de HTML de Udemy es del 10%: <meter value="10" min="0" max="100"></meter> </p></td>
       </tr>
     </table>
     <hr>
@@ -134,14 +135,16 @@
     <hr>
 
     <!--Links a las otras páginas de mi sitio web-->
-    <table cellspacing="15">
-      <tr>
-        <td><h3><a href="hobbies.html">Pasatiempos</a></h3></td>
-        <td><h3><a href="contacto.html">Contacto</a></h3></td>
-        <td><h3><a href="inputs.html">Formularios</a></h3></td>
-        <td><h3><a href="challenge-1.html">Reto de HTML intermedio</a></h3></td>
-      </tr>
-    </table>
+    <nav>
+      <table cellspacing="15">
+        <tr>
+          <td><h3><a href="hobbies.html">Pasatiempos</a></h3></td>
+          <td><h3><a href="contacto.html">Contacto</a></h3></td>
+          <td><h3><a href="inputs.html">Formularios</a></h3></td>
+          <td><h3><a href="challenge-1.html">Reto de HTML intermedio</a></h3></td>
+        </tr>
+      </table>
+    </nav>
   </body>
 
 </html>
