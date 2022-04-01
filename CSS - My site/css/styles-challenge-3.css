@@ -1,0 +1,48 @@
+/* TAG selectors */
+
+body {
+  background-color: #A2D5F2;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* CLASS selectors */
+
+.top-container {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 400px;
+}
+
+.middle-container {
+  color: white;
+  height: 200px;
+  width: 200px;
+  background-image: url("../images/colors.jpg");
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: 200px;
+}
+
+.bottom-container {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  background-image: url("../images/trees.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: 400px;
+  left: 200px;
+}
