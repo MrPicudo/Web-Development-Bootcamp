@@ -1,24 +1,29 @@
 /* TAG selectors */
 
 body {
-  background-color: #A2D5F2;
+  background-color: #39AEA9;
   margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
-  margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* CLASS selectors */
 
 .top-container {
   background-color: #39AEA9;
-  padding-left: 10px;
-  border: solid 5px;
 }
 
 .middle-container {
@@ -29,8 +34,6 @@ h3 {
   background-color: #39AEA9;
   background-repeat: no-repeat;
   background-position: center;
-  border: solid 5px;
-  padding: 15px;
 }
 
 .bottom-container {
@@ -40,4 +43,20 @@ h3 {
   background-image: url("../images/trees.jpg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.inicio {
+  margin-top: 50px;
+}
+
+.nube-1 {
+  position: absolute;
+  left: 70%;
+  top: 10px;
+}
+
+.nube-2 {
+  position: absolute;
+  left: 20%;
+  top: 150px;
 }
