@@ -5,19 +5,32 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
 }
 
 h1 {
   font-family: 'Sacramento', cursive;
+  font-size: 4.375rem;
+  margin: 90px auto 0 auto;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
 }
 
 h3 {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #F9F7F7;
+  border-width: 7px;
+  width: 3%;
+  margin: 35px auto 35px auto;
 }
 
 /* CLASS selectors */
@@ -26,24 +39,28 @@ h3 {
   background-color: #39AEA9;
 }
 
-.inicio {
-  margin-top: 50px;
-}
-
 .nube-1 {
   position: absolute;
   left: 70%;
-  top: 10px;
+  top: 60px;
 }
 
 .nube-2 {
   position: absolute;
   left: 20%;
-  top: 150px;
+  top: 270px;
 }
 
-.middle-container {
+.montaña {
+  width: 1000px;
 }
 
-.bottom-container {
+.group-1 {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.subtitulo {
+  font-size: 2.5rem;
+  margin-top: 10px;
 }
