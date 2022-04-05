@@ -26,25 +26,6 @@ h3 {
   background-color: #39AEA9;
 }
 
-.middle-container {
-  color: white;
-  height: 200px;
-  width: 200px;
-  background-image: url("../images/colors.jpg");
-  background-color: #39AEA9;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: #39AEA9;
-  background-image: url("../images/trees.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .inicio {
   margin-top: 50px;
 }
@@ -59,4 +40,10 @@ h3 {
   position: absolute;
   left: 20%;
   top: 150px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
 }
