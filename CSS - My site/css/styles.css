@@ -12,17 +12,22 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 4.375rem;
   margin: 90px auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   margin: 0;
+  color: #11999E;
 }
 
 hr {
@@ -31,6 +36,10 @@ hr {
   border-width: 7px;
   width: 3%;
   margin: 35px auto 35px auto;
+}
+
+a {
+  color: #11999E;
 }
 
 /* CLASS selectors */
