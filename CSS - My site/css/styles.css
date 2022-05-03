@@ -1,75 +1,89 @@
 /* TAG selectors */
 
-body {
-  background-color: #39AEA9;
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  font-size: 1.5rem;
-}
-
-h1 {
-  font-family: 'Sacramento', cursive;
-  font-size: 4.375rem;
-  margin: 90px auto 0 auto;
-  color: #66BFBF;
-  line-height: 2;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: normal;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  margin: 0;
-  color: #11999E;
-}
-
-hr {
-  border-style: dotted none none;
-  border-color: #F9F7F7;
-  border-width: 7px;
-  width: 3%;
-  margin: 35px auto 35px auto;
-}
-
 a {
   color: #11999E;
 }
 
+body {
+  background-color: #39AEA9;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.375rem;
+  line-height: 2;
+  margin: 90px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+hr {
+  border-color: #F9F7F7;
+  border-style: dotted none none;
+  border-width: 7px;
+  margin: 35px auto 35px auto;
+  width: 3%;
+}
+
 /* CLASS selectors */
 
-.top-container {
-  background-color: #39AEA9;
-}
-
-.nube-1 {
-  position: absolute;
-  left: 70%;
-  top: 60px;
-}
-
-.nube-2 {
-  position: absolute;
-  left: 20%;
-  top: 270px;
+.group-1 {
+  border-radius: 50%;
+  width: 35%;
+  float: left;
+  margin-right: 1.875rem;
 }
 
 .montaña {
   width: 1000px;
 }
 
-.group-1 {
-  width: 250px;
+.nube-1 {
+  position: absolute;
+    left: 70%;
+    top: 60px;
+}
+
+.nube-2 {
+  position: absolute;
+    left: 20%;
+    top: 270px;
+}
+
+.perfil {
   border-radius: 50%;
+  width: 20%;
+}
+
+.skill-row {
+  margin: 6.25rem auto 6.25rem auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
 }
 
 .subtitulo {
   font-size: 2.5rem;
   margin-top: 10px;
+}
+
+.top-container {
+  background-color: #39AEA9;
 }
