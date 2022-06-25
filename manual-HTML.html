@@ -32,7 +32,7 @@
 
     <!-- Etiquetas que no necesitan su respectiva etiqueta de cierre-->
     <h3>Etiquetas de solo apertura</h3>
-    <table cellspacing="15">
+    <table>
       <thead>
         <tr>
           <th><h4>----- Etiqueta -----</h4></th>
@@ -116,10 +116,54 @@
       <li>Inicia sesión</li>
       <li>Abre el programa</li>
     </ol>
-    
+
     <p><strong>El tipo de lista puede ser con minúsculas o mayúsculas.</strong></p>
 
     <hr>
+
+    <!-- Imágenes -->
+    <h3>Inserción de imágenes</h3>
+    <!-- Imagen local desde la misma carpeta en la que se encuentra el archivo html -->
+    <img src="Emojis.PNG" alt="Instrucciones para usar emojis">
+
+    <!-- Imagen local, desde una carpeta posterior a donde se encuentra el archivo html -->
+    <img src="images/Foto.png" alt="Foto de Miguel Torres">
+
+    <!-- Imagen externa, desde un link copiado de internet -->
+    <img src="https://d2k7w3fmrpj0w4.cloudfront.net/advices/photos/000/000/798/medium/999c58e98401e287626190d3aff58c48d3411610.jpg?1642017136" alt="Imagen de programación">
+
+    <hr>
+
+    <h3>Links con la anchor tag</h3>
+    <!-- Usamos <a href="link">Hipertexto</a> para insertar un link en cualquier texto de nuestro sitio web -->
+    <ul>
+      <li><a href="https://www.facebook.com/mathreviewsmx">Math Review</a></li>
+      <li><a href="https://www.facebook.com/Matem%C3%A1ticas-IPN-114070420291354">Matemáticas IPN</a></li>
+      <li><a href="https://www.youtube.com/channel/UC3dFLDwHkfL65oMA7xkVyLg">Canal de YouTube</a></li>
+      <li><a href="index.html">Primer página creada en el Bootcamp de desarrollo web</a></li>
+    </ul>
+
+    <hr>
+
+    <h3>Tablas</h3>
+
+    <h4>Tabla de 4x2 con encabezado, cuerpo y pie</h4>
+    <table>
+      <!-- Encabezado de la tabla -->
+      <thead>
+        <tr> <th>Table header 1</th> <th>Table header 2</th> </tr>
+      </thead>
+      <!-- Cuerpo de la tabla -->
+      <tbody>
+        <tr> <td>Table data row 1, column 1</td> <td>Table data row 1, column 2</td> </tr>
+        <tr> <td>Table data row 2, column 1</td> <td>Table data row 2, column 2</td> </tr>
+      </tbody>
+      <!-- Pie de la tabla -->
+      <tfoot>
+        <tr> <td>Table footer 1</td> <td>Table footer 2</td> </tr>
+      </tfoot>
+    </table>
+
 
   </body>
 </html>
