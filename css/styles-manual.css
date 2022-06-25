@@ -1,0 +1,44 @@
+/* Todo lo que contiene este documento es CSS externo */
+
+/* Paleta de colores:
+    #F9F7F7 -- Color de fondo
+    #DBE2EF -- Color de las líneas horizontales
+    #3F72AF -- Color de los encabezados <h3>
+    #112D4E -- Color de los encabezados <h1>
+    #511281 -- Color de los subtitulos <h4>
+    #646FD4 -- Color adicional bonito */
+
+/* TAG selectors */
+
+body {
+  background-color: #F9F7F7;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #DBE2EF;
+  border-width: 3px;
+}
+
+h1 {
+  color: #112D4E;
+}
+
+h2 {
+  color: #646FD4;
+}
+
+h3 {
+  color: #3F72AF;
+}
+
+h4 {
+  color: #511281;
+  margin: 0;
+}
+
+/* CLASS selectors */
+
+.mark1 {
+  background-color: #646FD4;
+}

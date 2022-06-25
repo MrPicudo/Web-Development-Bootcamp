@@ -1,43 +1,79 @@
 <!DOCTYPE html>
 <html>
+
+  <!-- head es la primer parte de todo archivo HTML, lleva información no visible de la página -->
   <head>
     <meta charset="utf-8">
-    <title>Manual de HTML</title>
+    <title>Manual de HTML</title> <!-- Esta es la única información visible que definimos en head, es el título de la pestaña del navegador -->
+    <link rel="stylesheet" href="css/styles-manual.css">
   </head>
+
+  <!-- body es la segunda parte de todo archivo HTML, y lleva toda la información visible de la página -->
   <body>
     <!-- Título del manual dentro de la página web-->
-    <hr size="3" noshade>
-    <center>
+    <hr>
+    <center> <!-- Usamos la etiqueta <center> ... </center> para centrar el texto de lo que sea que se encuentre en medio. -->
       <h1>Manual de programación en HTML</h1>
       <h2>Web deveplopment Boothcamp</h2>
     </center>
-    <hr size="3" noshade>
 
-    <!-- Encabezados -->
+    <hr>
+
+    <!-- Tipos de encabezados -->
     <h1>Este es un encabezado de nivel 1</h1>
     <h2>Este es un encabezado de nivel 2</h2>
     <h3>Este es un encabezado de nivel 3</h3>
-    <!-- Los encabezados van del 1 al 6 -->
+    <h4>Este es un encabezado de nivel 4</h4>
+    <h5>Este es un encabezado de nivel 5</h5>
+    <h6>Este es un encabezado de nivel 6</h6>
+    <!-- Los encabezados van del 1 al 6, y existen reglas de estilo para cada uno de ellos definidas en cada proyecto. -->
 
-    <!-- Etiquetas de solo apertura -->
-    <br> <!-- Este es un salto de línea -->
-    <hr> <!-- Esta es una línea horizontal -->
+    <hr>
+
+    <!-- Etiquetas que no necesitan su respectiva etiqueta de cierre-->
+    <h3>Etiquetas de solo apertura</h3>
+    <table cellspacing="15">
+      <thead>
+        <tr>
+          <th><h4>----- Etiqueta -----</h4></th>
+          <th><h4>----- Definición -----</h4></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt!DOCTYPE html&gt</td>
+          <td>Declaración que define a un documento como archivo HTML 5</td>
+        </tr>
+        <tr>
+          <td>&ltbr&gt</td> <!-- Usamos las entidades caracter &lt (less than) y &gt (grater than) para < y > -->
+          <td>Salto de línea</td>
+        </tr>
+        <tr>
+          <td>&lthr&gt</td>
+          <td>Línea horizontal</td>
+        </tr>
+      </tbody>
+    </table>
 
     <!-- Se pueden tener atributos dentro de algunas etiquetas como en la <hr> y para saber cuáles existen debemos de revisar la documentación de la etiqueta -->
 
+    <hr>
+
     <!-- Formato de elementos en HTML -->
+    <h3>Formato de texto</h3>
     <b>Texto en negritas</b> <br>
     <strong>Texto en negritas con información importante para el navegador</strong> <br>
     <i>Texto en cursiva</i> <br>
     <em>Texto en cursiva con información a enfatizar para el navegador</em> <br>
     <mark>Texto marcado con fondo amarillo</mark> <br>
+    <mark class="mark1">Texto marcado con fondo customizado</mark> <br>
 
-    <!-- Líneas horizontales -->
-    <hr size="3" noshade>
-    <!-- La etiqueta se llama hr, y tiene parámetros dentro de ella-->
+    <hr>
+
+    <h3>Tipos de listas</h3>
 
     <!-- Listas no ordenadas-->
-    <p>Lista no ordenada: </p>
+    <h4>Lista no ordenada:</h4>
     <ul>
       <li>Primer elemento</li>
       <li>Segundo elemento</li>
@@ -45,7 +81,7 @@
     </ul>
 
     <!-- Listas ordenadas -->
-    <p>Lista ordenada por default: </p>
+    <h4>Lista ordenada por default:</h4>
     <ol>
       <li>Lunes</li>
       <li>Martes</li>
@@ -54,14 +90,14 @@
       <li>Viernes</li>
     </ol>
 
-    <p>Lista ordenada con inicio definido</p>
+    <h4>Lista ordenada con inicio definido:</h4>
     <ol start="11">
       <li>Noviembre</li>
       <li>Diciembre</li>
     </ol>
 
-    <p>Lista ordenada en reversa</p>
-    <ol reversed>
+    <h4>Lista ordenada en reversa:</h4>
+    <ol reversed> <!-- Esta lista cuenta el número de elementos y empieza numerándolos del elemento n al elemento 1 -->
       <li>Viernes</li>
       <li>Jueves</li>
       <li>Miércoles</li>
@@ -69,7 +105,7 @@
       <li>Lunes</li>
     </ol>
 
-    <p>Lista ordenada de otros tipos:</p>
+    <h4>Lista ordenada de otros tipos:</h4>
     <ol type="a">
       <li>Enciende la computadora</li>
       <li>Inicia sesión</li>
@@ -80,9 +116,10 @@
       <li>Inicia sesión</li>
       <li>Abre el programa</li>
     </ol>
+    
     <p><strong>El tipo de lista puede ser con minúsculas o mayúsculas.</strong></p>
 
-     
+    <hr>
 
   </body>
 </html>
