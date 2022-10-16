@@ -42,11 +42,16 @@ hr {
   width: 3%;
 }
 
+td {
+  padding: 70px;
+}
+
 /* CLASS selectors */
 
+/* Imágenes de la tabla de Skills */
 .group-1 {
   border-radius: 50%;
-  width: 35%;
+  width: 150%;
   float: left;
   margin-right: 1.875rem;
 }
